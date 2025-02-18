@@ -1,13 +1,11 @@
-import { About } from "@/components/about";
 import { Hero } from "@/components/hero";
-import { Noticias } from "@/components/noticias";
+import { Main } from "@/components/main";
 
 const Home = () => {
   return (
     <main className="">
       <Hero />
-      <About />
-      <Noticias />
+      <Main />
     </main>
   );
 };
